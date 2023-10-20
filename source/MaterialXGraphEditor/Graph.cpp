@@ -3147,6 +3147,10 @@ void Graph::graphButtons()
             {
                 saveGraphToFile();
             }
+            else if (ImGui::MenuItem("Save As", "Ctrl-Shift-S"))
+            {
+                saveGraphToFile();
+            }
             ImGui::EndMenu();
         }
 
